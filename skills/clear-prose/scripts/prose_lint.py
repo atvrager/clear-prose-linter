@@ -475,7 +475,10 @@ def main() -> int:
 
     # Subcommands
     if len(sys.argv) > 1 and sys.argv[1] in ("init", "install"):
-        from scripts.project_installer import init_new_project, install_to_project
+        try:
+            from scripts.project_installer import init_new_project, install_to_project
+        except ModuleNotFoundError:
+            from project_installer import init_new_project, install_to_project
         cmd = sys.argv[1]
         target = sys.argv[2] if len(sys.argv) > 2 else "."
         fn = init_new_project if cmd == "init" else install_to_project
@@ -489,7 +492,10 @@ def main() -> int:
 
     # Commit reflow mode
     if args.fix_commit:
-        from scripts.reflow_commit import reflow_commit_message
+        try:
+            from scripts.reflow_commit import reflow_commit_message
+        except ModuleNotFoundError:
+            from reflow_commit import reflow_commit_message
         raw = sys.stdin.read() if not args.paths else Path(args.paths[0]).read_text(encoding="utf-8")
         res = reflow_commit_message(raw)
         if res.subject_warning:

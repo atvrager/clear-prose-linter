@@ -16,6 +16,7 @@ from pathlib import Path
 
 SELF_DIR = Path(__file__).resolve().parent
 if (SELF_DIR / "sw_rules.json").exists():
+    ROOT = SELF_DIR.parent
     SKILL_SRC = SELF_DIR.parent
     TEMPLATES_DIR = SKILL_SRC / "templates"
 else:
