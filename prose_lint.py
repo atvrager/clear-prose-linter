@@ -131,16 +131,25 @@ def lint_strunk_and_white(file_name: str, content: str) -> list[Finding]:
     replacements = SW_RULES.get("needless_words", [])
     qualifiers = set(SW_RULES.get("qualifiers", ["very", "rather", "little", "pretty"]))
 
+    in_code_block = False
+
     for lineno, line in enumerate(lines, start=1):
-        if line.strip().startswith("```") or line.strip().startswith("<!--"):
+        stripped = line.strip()
+        if stripped.startswith("```"):
+            in_code_block = not in_code_block
             continue
+        if in_code_block or stripped.startswith("<!--"):
+            continue
+
+        # Mask inline code spans so code identifiers are not flagged as prose issues
+        clean_line = re.sub(r"`[^`]*`", lambda m: " " * len(m.group(0)), line)
 
         # Check needless words
         for item in replacements:
             pat = item["pattern"]
             rep = item["replacement"]
             regex = r"\b" + re.escape(pat) + r"\b" if " " not in pat else r"\b" + r"\s+".join(re.escape(w) for w in pat.split()) + r"\b"
-            for m in re.finditer(regex, line, re.I):
+            for m in re.finditer(regex, clean_line, re.I):
                 findings.append(Finding(
                     file=file_name,
                     line=lineno,
@@ -153,9 +162,9 @@ def lint_strunk_and_white(file_name: str, content: str) -> list[Finding]:
                 ))
 
         # Check Oxford comma (Rule 2)
-        for m in SERIAL_COMMA_PATTERN.finditer(line):
+        for m in SERIAL_COMMA_PATTERN.finditer(clean_line):
             # Check if there is already a comma
-            sub = line[m.start():m.end()]
+            sub = clean_line[m.start():m.end()]
             if "," in sub.split()[-2]:
                 continue
             findings.append(Finding(
@@ -165,11 +174,11 @@ def lint_strunk_and_white(file_name: str, content: str) -> list[Finding]:
                 severity=Severity.SUGGESTION,
                 rule_id="SW002",
                 message=f"In a series of three or more terms, use an Oxford comma before '{m.group(3)}'",
-                context=sub,
+                context=line.strip(),
             ))
 
         # Check Passive Voice (Principle 14)
-        for m in PASSIVE_PATTERN.finditer(line):
+        for m in PASSIVE_PATTERN.finditer(clean_line):
             findings.append(Finding(
                 file=file_name,
                 line=lineno,
@@ -183,7 +192,7 @@ def lint_strunk_and_white(file_name: str, content: str) -> list[Finding]:
         # Check Overused Qualifiers (Chapter V Reminder 8)
         for q in qualifiers:
             regex = r"\b" + re.escape(q) + r"\b"
-            for m in re.finditer(regex, line, re.I):
+            for m in re.finditer(regex, clean_line, re.I):
                 findings.append(Finding(
                     file=file_name,
                     line=lineno,
