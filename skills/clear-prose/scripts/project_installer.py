@@ -73,7 +73,8 @@ sh_test(
 def setup_git_hooks(target_dir: Path) -> list[str]:
     """Installs commit-msg and pre-commit hooks safely."""
     actions: list[str] = []
-    githooks_dir = target_dir / "githooks"
+    hook_dir_name = ".githooks" if (target_dir / ".githooks").is_dir() else "githooks"
+    githooks_dir = target_dir / hook_dir_name
     githooks_dir.mkdir(parents=True, exist_ok=True)
 
     for hook_name in ("commit-msg", "pre-commit"):
@@ -89,13 +90,13 @@ def setup_git_hooks(target_dir: Path) -> list[str]:
     # Configure core.hooksPath if inside a git repository
     if (target_dir / ".git").exists():
         subprocess.run(
-            ["git", "config", "core.hooksPath", "githooks"],
+            ["git", "config", "core.hooksPath", hook_dir_name],
             cwd=target_dir,
             check=False,
             stdout=subprocess.DEVNULL,
             stderr=subprocess.DEVNULL,
         )
-        actions.append("Configured git core.hooksPath = githooks")
+        actions.append(f"Configured git core.hooksPath = {hook_dir_name}")
 
     return actions
 
@@ -152,7 +153,7 @@ def setup_bazel_rules(target_dir: Path) -> list[str]:
     return actions
 
 
-def install_to_project(target_path: str | Path) -> list[str]:
+def install_to_project(target_path: str | Path, skip_bazel: bool = False) -> list[str]:
     """Installs prose linting, hooks, and guidelines into an existing project."""
     target_dir = Path(target_path).resolve()
     if not target_dir.is_dir():
@@ -162,16 +163,26 @@ def install_to_project(target_path: str | Path) -> list[str]:
     actions.extend(setup_git_hooks(target_dir))
     actions.extend(setup_agents_rule(target_dir))
     actions.extend(setup_skill(target_dir))
-    actions.extend(setup_bazel_rules(target_dir))
+    if not skip_bazel:
+        actions.extend(setup_bazel_rules(target_dir))
 
-    # Copy prose_lint.py into project root or scripts/ if desired
-    linter_dest = target_dir / "scripts" / "prose_lint.py"
+    # Copy prose_lint.py into project utils/ or scripts/
+    script_dir_name = "utils" if (target_dir / "utils").is_dir() else "scripts"
+    linter_dest = target_dir / script_dir_name / "prose_lint.py"
     linter_dest.parent.mkdir(parents=True, exist_ok=True)
     linter_src = ROOT / "prose_lint.py"
     if linter_src.exists() and not linter_dest.exists():
         shutil.copy2(linter_src, linter_dest)
         linter_dest.chmod(0o755)
         actions.append(f"Copied prose_lint.py to {linter_dest.relative_to(target_dir)}")
+
+    # Copy reflow_commit.py as well
+    reflow_src = ROOT / "scripts" / "reflow_commit.py"
+    reflow_dest = target_dir / script_dir_name / "reflow_commit.py"
+    if reflow_src.exists() and not reflow_dest.exists():
+        shutil.copy2(reflow_src, reflow_dest)
+        reflow_dest.chmod(0o755)
+        actions.append(f"Copied reflow_commit.py to {reflow_dest.relative_to(target_dir)}")
 
     return actions
 
@@ -220,13 +231,14 @@ def init_new_project(target_path: str | Path) -> list[str]:
 
 if __name__ == "__main__":
     if len(sys.argv) < 3 or sys.argv[1] not in ("init", "install"):
-        print("Usage: project_installer.py [init|install] <target_directory>")
+        print("Usage: project_installer.py [init|install] [--no-bazel] <target_directory>")
         sys.exit(1)
 
     cmd = sys.argv[1]
-    tgt = sys.argv[2]
-    fn = init_new_project if cmd == "init" else install_to_project
-    results = fn(tgt)
+    skip_bazel = "--no-bazel" in sys.argv
+    remaining = [a for a in sys.argv[2:] if a != "--no-bazel"]
+    tgt = remaining[0] if remaining else "."
+    results = init_new_project(tgt) if cmd == "init" else install_to_project(tgt, skip_bazel=skip_bazel)
     print(f"Project {cmd} finished in {tgt}:")
     for a in results:
         print(f"  - {a}")
