@@ -1,0 +1,9 @@
+extends: existence
+message: "Avoid overused qualifiers: '%s' (Strunk & White Chapter V, Reminder 8)"
+level: suggestion
+tokens:
+  - rather
+  - very
+  - little
+  - pretty
+  - really

@@ -1,0 +1,49 @@
+load("@rules_python//python:defs.bzl", "py_binary", "py_library")
+load("@rules_shell//shell:sh_test.bzl", "sh_test")
+
+package(default_visibility = ["//visibility:public"])
+
+exports_files([
+    "prose_lint.py",
+    "prose_lint_test.sh",
+    "README.md",
+])
+
+py_library(
+    name = "reflow_commit_lib",
+    srcs = ["scripts/reflow_commit.py"],
+)
+
+py_library(
+    name = "project_installer_lib",
+    srcs = ["scripts/project_installer.py"],
+    data = glob([
+        "templates/**",
+        "skills/**",
+    ]),
+)
+
+py_binary(
+    name = "prose_lint",
+    srcs = ["prose_lint.py"],
+    main = "prose_lint.py",
+    deps = [
+        ":reflow_commit_lib",
+        ":project_installer_lib",
+    ],
+    data = glob(["skills/**"]),
+)
+
+sh_test(
+    name = "prose_lint_test",
+    size = "small",
+    srcs = ["prose_lint_test.sh"],
+    args = [
+        "$(location :prose_lint)",
+        "README.md",
+    ],
+    data = [
+        ":prose_lint",
+        "README.md",
+    ],
+)

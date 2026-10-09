@@ -1,0 +1,12 @@
+extends: substitution
+message: "ASD-STE100: Spell out Latin abbreviation '%s' as '%s'"
+level: error
+swap:
+  "e.g.": "for example"
+  "i.e.": "that is"
+  "etc.": "and so on"
+  "et al.": "and others"
+  "viz.": "namely"
+  "c.f.": "compare with"
+  "ca.": "about"
+  "vs.": "against"

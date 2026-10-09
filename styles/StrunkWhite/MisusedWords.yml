@@ -1,0 +1,17 @@
+extends: substitution
+message: "Use '%s' instead of '%s' (Strunk & White Chapter IV)"
+link: https://archive.org/details/pdfy-2_qp8jQ61OI6NHwa
+level: warning
+swap:
+  and/or: and or or
+  currently: now
+  irregardless: regardless
+  meaningful: significant
+  offhand: offhanded
+  ongoing: continuous
+  oriented: directed
+  partially: partly
+  personalize: customize
+  possess: have
+  utilize: use
+  verbal: spoken

@@ -1,0 +1,1251 @@
+{
+  "metadata": {
+    "source": "Strunk & White - The Elements of Style, 4th Edition",
+    "archive_url": "https://archive.org/details/pdfy-2_qp8jQ61OI6NHwa",
+    "sha256": "75527b11f8db39481c7b4eace61358ec5377104da151cf19b1368c1344b47996"
+  },
+  "rules_of_usage": [
+    {
+      "id": "SW001",
+      "num": 1,
+      "title": "Form the possessive singular of nouns by adding 's."
+    },
+    {
+      "id": "SW002",
+      "num": 2,
+      "title": "In a series of three or more terms with a single conjunction, use a comma after each term except the last."
+    },
+    {
+      "id": "SW003",
+      "num": 3,
+      "title": "Enclose parenthetic expressions between commas."
+    },
+    {
+      "id": "SW004",
+      "num": 4,
+      "title": "Place a comma before a conjunction introducing an independent clause."
+    },
+    {
+      "id": "SW005",
+      "num": 5,
+      "title": "Do not join independent clauses with a comma."
+    },
+    {
+      "id": "SW006",
+      "num": 6,
+      "title": "Do not break sentences in two."
+    },
+    {
+      "id": "SW007",
+      "num": 7,
+      "title": "Use a colon after an independent clause to introduce a list of particulars, an appositive, an amplification, or an illustrative quotation."
+    },
+    {
+      "id": "SW008",
+      "num": 8,
+      "title": "Use a dash to set off an abrupt break or interruption and to announce a long appositive or summary."
+    },
+    {
+      "id": "SW009",
+      "num": 9,
+      "title": "The number of the subject determines the number of the verb."
+    },
+    {
+      "id": "SW010",
+      "num": 10,
+      "title": "Use the proper case of pronoun."
+    },
+    {
+      "id": "SW011",
+      "num": 11,
+      "title": "A participial phrase at the beginning of a sentence must refer to the grammatical subject."
+    }
+  ],
+  "principles_of_composition": [
+    {
+      "id": "SW012",
+      "num": 12,
+      "title": "Choose a suitable design and hold to it."
+    },
+    {
+      "id": "SW013",
+      "num": 13,
+      "title": "Make the paragraph the unit of composition."
+    },
+    {
+      "id": "SW014",
+      "num": 14,
+      "title": "Use the active voice."
+    },
+    {
+      "id": "SW015",
+      "num": 15,
+      "title": "Put statements in positive form."
+    },
+    {
+      "id": "SW016",
+      "num": 16,
+      "title": "Use definite, specific, concrete language."
+    },
+    {
+      "id": "SW017",
+      "num": 17,
+      "title": "Omit needless words."
+    },
+    {
+      "id": "SW018",
+      "num": 18,
+      "title": "Avoid a succession of loose sentences."
+    },
+    {
+      "id": "SW019",
+      "num": 19,
+      "title": "Express coordinate ideas in similar form."
+    },
+    {
+      "id": "SW020",
+      "num": 20,
+      "title": "Keep related words together."
+    },
+    {
+      "id": "SW021",
+      "num": 21,
+      "title": "In summaries, keep to one tense."
+    },
+    {
+      "id": "SW022",
+      "num": 22,
+      "title": "Place the emphatic words of a sentence at the end."
+    }
+  ],
+  "style_reminders": [
+    {
+      "num": 1,
+      "title": "Place yourself in the background."
+    },
+    {
+      "num": 2,
+      "title": "Write in a way that comes naturally."
+    },
+    {
+      "num": 3,
+      "title": "Work from a suitable design."
+    },
+    {
+      "num": 4,
+      "title": "Write with nouns and verbs."
+    },
+    {
+      "num": 5,
+      "title": "Revise and rewrite."
+    },
+    {
+      "num": 6,
+      "title": "Do not overwrite."
+    },
+    {
+      "num": 7,
+      "title": "Do not overstate."
+    },
+    {
+      "num": 8,
+      "title": "Avoid the use of qualifiers."
+    },
+    {
+      "num": 9,
+      "title": "Do not affect a breezy manner."
+    },
+    {
+      "num": 10,
+      "title": "Use orthodox spelling."
+    },
+    {
+      "num": 11,
+      "title": "Do not explain too much."
+    },
+    {
+      "num": 12,
+      "title": "Do not construct awkward adverbs."
+    },
+    {
+      "num": 13,
+      "title": "Make sure the reader knows who is speaking."
+    },
+    {
+      "num": 14,
+      "title": "Avoid fancy words."
+    },
+    {
+      "num": 15,
+      "title": "Do not use dialect unless your ear is good."
+    },
+    {
+      "num": 16,
+      "title": "Be clear."
+    },
+    {
+      "num": 17,
+      "title": "Do not inject opinion."
+    },
+    {
+      "num": 18,
+      "title": "Use figures of speech sparingly."
+    },
+    {
+      "num": 19,
+      "title": "Do not take shortcuts at the cost of clarity."
+    },
+    {
+      "num": 20,
+      "title": "Avoid foreign languages."
+    },
+    {
+      "num": 21,
+      "title": "Prefer the standard to the offbeat."
+    }
+  ],
+  "misused_words": [
+    {
+      "term": "Aggravate",
+      "pattern": "\\bAggravate\\b",
+      "replacement": "",
+      "explanation": "Irritate. The first means \"to add to\" an already troublesome or vexing matter or condition. The second means \"to vex\" or \"to annoy\" or \"to chafe.\"",
+      "full_text": "Irritate. The first means \"to add to\" an already troublesome or vexing matter or condition.\nThe second means \"to vex\" or \"to annoy\" or \"to chafe.\""
+    },
+    {
+      "term": "All right",
+      "pattern": "\\bAll\\s+right\\b",
+      "replacement": "",
+      "explanation": "Idiomatic in familiar speech as a detached phrase in the sense \"Agreed,\" or \"Go ahead,\" or \"O. K.\" Properly written as two words\u2014all right.",
+      "full_text": "Idiomatic in familiar speech as a detached phrase in the sense \"Agreed,\" or \"Go ahead,\" or \"O.\nK.\" Properly written as two words\u2014all right."
+    },
+    {
+      "term": "Allude",
+      "pattern": "\\bAllude\\b",
+      "replacement": "",
+      "explanation": "Do not confuse with elude. You allude to a book; you elude a pursuer. Note, too, that allude is not synonymous with refer. An allusion is an indirect mention, a reference is a specific one.",
+      "full_text": "Do not confuse with elude. You allude to a book; you elude a pursuer. Note, too, that allude is\nnot synonymous with refer. An allusion is an indirect mention, a reference is a specific one."
+    },
+    {
+      "term": "Allusion",
+      "pattern": "\\bAllusion\\b",
+      "replacement": "",
+      "explanation": "Easily confused with illusion. The first means \"an indirect reference\"; the second means \"an unreal image\" or \"a false impression.\"",
+      "full_text": "Easily confused with illusion. The first means \"an indirect reference\"; the second means \"an\nunreal image\" or \"a false impression.\""
+    },
+    {
+      "term": "Alternate",
+      "pattern": "\\bAlternate\\b",
+      "replacement": "",
+      "explanation": "Alternative. The words are not always interchangeable as nouns or adjectives. The first means every other one in a series; the second, one of two possibilities. As the other one of a series of two, an alternate may stand for",
+      "full_text": "Alternative. The words are not always interchangeable as nouns or adjectives. The first means\nevery other one in a series; the second, one of two possibilities. As the other one of a series of two, an\nalternate may stand for \"a substitute,\" but an alternative, although used in a similar sense, conno"
+    },
+    {
+      "term": "Among",
+      "pattern": "\\bAmong\\b",
+      "replacement": "",
+      "explanation": "Between. When more than two things or persons are involved, among is usually called for: \"The money was divided among the four players.\" When, however, more than two are involved but each is considered individually, between is preferred: \"an agreement",
+      "full_text": "Between. When more than two things or persons are involved, among is usually called for:\n\"The money was divided among the four players.\" When, however, more than two are involved but each\nis considered individually, between is preferred: \"an agreement between the six heirs.\"\n\n\fAnd/or. A device, or s"
+    },
+    {
+      "term": "Anticipate",
+      "pattern": "\\bAnticipate\\b",
+      "replacement": "",
+      "explanation": "Use expect in the sense of simple expectation.",
+      "full_text": "Use expect in the sense of simple expectation."
+    },
+    {
+      "term": "Anybody",
+      "pattern": "\\bAnybody\\b",
+      "replacement": "",
+      "explanation": "In the sense of \"any person,\" not to be written as two words. Any body means \"any corpse,\" or \"any human form,\" or \"any group.\" The rule holds equally for everybody, nobody, and somebody.",
+      "full_text": "In the sense of \"any person,\" not to be written as two words. Any body means \"any corpse,\" or\n\"any human form,\" or \"any group.\" The rule holds equally for everybody, nobody, and somebody."
+    },
+    {
+      "term": "Anyone",
+      "pattern": "\\bAnyone\\b",
+      "replacement": "",
+      "explanation": "In the sense of \"anybody,\" written as one word. Any one means \"any single person\" or \"any single thing.\"",
+      "full_text": "In the sense of \"anybody,\" written as one word. Any one means \"any single person\" or \"any\nsingle thing.\""
+    },
+    {
+      "term": "As good or better than",
+      "pattern": "\\bAs\\s+good\\s+or\\s+better\\s+than\\b",
+      "replacement": "",
+      "explanation": "Expressions of this type should be corrected by rearranging the sentences.",
+      "full_text": "Expressions of this type should be corrected by rearranging the sentences."
+    },
+    {
+      "term": "As to whether",
+      "pattern": "\\bAs\\s+to\\s+whether\\b",
+      "replacement": "whether",
+      "explanation": "Whether is sufficient.",
+      "full_text": "Whether is sufficient."
+    },
+    {
+      "term": "As yet",
+      "pattern": "\\bAs\\s+yet\\b",
+      "replacement": "yet",
+      "explanation": "Yet nearly always is as good, if not better.",
+      "full_text": "Yet nearly always is as good, if not better."
+    },
+    {
+      "term": "No agreement has yet been reached",
+      "pattern": "\\bNo\\s+agreement\\s+has\\s+yet\\s+been\\s+reached\\b",
+      "replacement": "",
+      "explanation": "The chief exception is at the beginning of a sentence, where yet means something different. Yet (or despite everything) he has not succeeded. As yet (or so far) he has not succeeded. Being. Not appropriate after regard\u2026 as.",
+      "full_text": "The chief exception is at the beginning of a sentence, where yet means something different.\nYet (or despite everything) he has not succeeded.\nAs yet (or so far) he has not succeeded.\n\n\fBeing. Not appropriate after regard\u2026 as."
+    },
+    {
+      "term": "But",
+      "pattern": "\\bBut\\b",
+      "replacement": "",
+      "explanation": "Unnecessary after doubt and help.",
+      "full_text": "Unnecessary after doubt and help."
+    },
+    {
+      "term": "Can",
+      "pattern": "\\bCan\\b",
+      "replacement": "",
+      "explanation": "Means \"am (is, are) able.\" Not to be used as a substitute for may.",
+      "full_text": "Means \"am (is, are) able.\" Not to be used as a substitute for may."
+    },
+    {
+      "term": "Care less",
+      "pattern": "\\bCare\\s+less\\b",
+      "replacement": "care",
+      "explanation": "The dismissive \"I couldn't care less\" is often used with the shortened \"not\" mistakenly (and mysteriously) omitted: \"I could care less.\" The error destroys the meaning of the sentence and is careless indeed.",
+      "full_text": "The dismissive \"I couldn't care less\" is often used with the shortened \"not\" mistakenly (and\nmysteriously) omitted: \"I could care less.\" The error destroys the meaning of the sentence and is careless\nindeed."
+    },
+    {
+      "term": "Case",
+      "pattern": "\\bCase\\b",
+      "replacement": "",
+      "explanation": "Often unnecessary. In many cases, the rooms lacked air conditioning.",
+      "full_text": "Often unnecessary.\nIn many cases, the rooms lacked air conditioning."
+    },
+    {
+      "term": "Certainly",
+      "pattern": "\\bCertainly\\b",
+      "replacement": "",
+      "explanation": "Used indiscriminately by some speakers, much as others use very, in an attempt to intensify any and every statement. A mannerism of this kind, bad in speech, is even worse in writing. Character. Often simply redundant, used from a mere",
+      "full_text": "Used indiscriminately by some speakers, much as others use very, in an attempt to intensify\nany and every statement. A mannerism of this kind, bad in speech, is even worse in writing.\n\n\fCharacter. Often simply redundant, used from a mere habit of wordiness.\nacts of a hostile character\nhostile acts\nC"
+    },
+    {
+      "term": "Clever",
+      "pattern": "\\bClever\\b",
+      "replacement": "",
+      "explanation": "Note that the word means one thing when applied to people, another when applied to horses. A clever horse is a good-natured one, not an ingenious one.",
+      "full_text": "Note that the word means one thing when applied to people, another when applied to horses. A\nclever horse is a good-natured one, not an ingenious one."
+    },
+    {
+      "term": "Compare",
+      "pattern": "\\bCompare\\b",
+      "replacement": "",
+      "explanation": "To compare to is to point out or imply resemblances between objects regarded as essentially of a different order; to compare with is mainly to point out differences between objects regarded as essentially of the same order. Thus, life has",
+      "full_text": "To compare to is to point out or imply resemblances between objects regarded as essentially\nof a different order; to compare with is mainly to point out differences between objects regarded as\nessentially of the same order. Thus, life has been compared to a pilgrimage, to a drama, to a battle;"
+    },
+    {
+      "term": "Comprise",
+      "pattern": "\\bComprise\\b",
+      "replacement": "",
+      "explanation": "Literally, \"embrace\": A zoo comprises mammals, reptiles, and birds (because it \"embraces,\" or \"includes,\" them). But animals do not comprise (\"embrace\") a zoo\u2014they constitute a zoo.",
+      "full_text": "Literally, \"embrace\": A zoo comprises mammals, reptiles, and birds (because it \"embraces,\"\nor \"includes,\" them). But animals do not comprise (\"embrace\") a zoo\u2014they constitute a zoo."
+    },
+    {
+      "term": "Consider",
+      "pattern": "\\bConsider\\b",
+      "replacement": "",
+      "explanation": "Not followed by as when it means \"believe to be.\"",
+      "full_text": "Not followed by as when it means \"believe to be.\""
+    },
+    {
+      "term": "I consider him competent",
+      "pattern": "\\bI\\s+consider\\s+him\\s+competent\\b",
+      "replacement": "",
+      "explanation": "When considered means \"examined\" or \"discussed,\" it is followed by as:",
+      "full_text": "When considered means \"examined\" or \"discussed,\" it is followed by as:"
+    },
+    {
+      "term": "Contact",
+      "pattern": "\\bContact\\b",
+      "replacement": "",
+      "explanation": "As a transitive verb, the word is vague and self-important. Do not contact people; get in touch with them, look them up, phone them, find them, or meet them.",
+      "full_text": "As a transitive verb, the word is vague and self-important. Do not contact people; get in touch\nwith them, look them up, phone them, find them, or meet them."
+    },
+    {
+      "term": "Cope",
+      "pattern": "\\bCope\\b",
+      "replacement": "",
+      "explanation": "An intransitive verb used with with. In formal writing, one doesn't \"cope,\" one \"copes with\" something or somebody. I knew they'd cope. (jocular)",
+      "full_text": "An intransitive verb used with with. In formal writing, one doesn't \"cope,\" one \"copes with\"\nsomething or somebody.\nI knew they'd cope. (jocular)"
+    },
+    {
+      "term": "Data",
+      "pattern": "\\bData\\b",
+      "replacement": "",
+      "explanation": "Like strata, phenomena, and media, data is a plural and is best used with a plural verb. The word, however, is slowly gaining acceptance as a singular.",
+      "full_text": "Like strata, phenomena, and media, data is a plural and is best used with a plural verb. The word,\nhowever, is slowly gaining acceptance as a singular."
+    },
+    {
+      "term": "Different than",
+      "pattern": "\\bDifferent\\s+than\\b",
+      "replacement": "",
+      "explanation": "Here logic supports established usage: one thing differs from another, hence, different from. Or, other than, unlike.",
+      "full_text": "Here logic supports established usage: one thing differs from another, hence, different\nfrom. Or, other than, unlike."
+    },
+    {
+      "term": "Disinterested",
+      "pattern": "\\bDisinterested\\b",
+      "replacement": "",
+      "explanation": "Means \"impartial.\" Do not confuse it 'tuth uninterested, which means \"not interested in.\" Let a disinterested person judge our dispute, (an impartial person) This man is obviously uninterested in our dispute, (couldn't care less)",
+      "full_text": "Means \"impartial.\" Do not confuse it 'tuth uninterested, which means \"not interested in.\"\nLet a disinterested person judge our dispute, (an impartial person)\nThis man is obviously uninterested in our dispute, (couldn't care less)"
+    },
+    {
+      "term": "Divided into",
+      "pattern": "\\bDivided\\s+into\\b",
+      "replacement": "",
+      "explanation": "Not to be misused for composed of. The line is sometimes difficult to draw; doubtless plays are divided into acts, but poems are composed of stanzas. An apple, halved, is divided into sections, but an apple is composed of seeds,",
+      "full_text": "Not to be misused for composed of. The line is sometimes difficult to draw; doubtless\nplays are divided into acts, but poems are composed of stanzas. An apple, halved, is divided into\nsections, but an apple is composed of seeds, flesh, and skin."
+    },
+    {
+      "term": "Due to",
+      "pattern": "\\bDue\\s+to\\b",
+      "replacement": "",
+      "explanation": "Loosely used for through, because of or owing to, in adverbial phrases.",
+      "full_text": "Loosely used for through, because of or owing to, in adverbial phrases."
+    },
+    {
+      "term": "Each and every one",
+      "pattern": "\\bEach\\s+and\\s+every\\s+one\\b",
+      "replacement": "each one",
+      "explanation": "Pitchman's jargon. Avoid, except in dialogue. It should be a lesson to each and every one of us, It should be a lesson to every one of us (to us all).",
+      "full_text": "Pitchman's jargon. Avoid, except in dialogue.\nIt should be a lesson to each and every one of us,\nIt should be a lesson to every one of us (to us all)."
+    },
+    {
+      "term": "Effect",
+      "pattern": "\\bEffect\\b",
+      "replacement": "",
+      "explanation": "As a noun, means \"result\"; as a verb, means \"to bring about,\" \"to accomplish\" (not to be confused with affect, which means \"to influence\"). As a noun, often loosely used in perfunctory writing about fashions, music, painting, and other arts:",
+      "full_text": "As a noun, means \"result\"; as a verb, means \"to bring about,\" \"to accomplish\" (not to be\nconfused with affect, which means \"to influence\").\nAs a noun, often loosely used in perfunctory writing about fashions, music, painting, and other arts: \"a\n\n\fSouthwestern effect\"; \"effects in pale green\"; \"very "
+    },
+    {
+      "term": "Enormity",
+      "pattern": "\\bEnormity\\b",
+      "replacement": "",
+      "explanation": "Use only in the sense of \"monstrous wickedness.\" Misleading, if not wrong, when used to express bigness.",
+      "full_text": "Use only in the sense of \"monstrous wickedness.\" Misleading, if not wrong, when used to\nexpress bigness."
+    },
+    {
+      "term": "Enthuse",
+      "pattern": "\\bEnthuse\\b",
+      "replacement": "",
+      "explanation": "An annoying verb growing out of the noun enthusiasm. Not recommended.",
+      "full_text": "An annoying verb growing out of the noun enthusiasm. Not recommended."
+    },
+    {
+      "term": "She enthused about her new car",
+      "pattern": "\\bShe\\s+enthused\\s+about\\s+her\\s+new\\s+car\\b",
+      "replacement": "",
+      "explanation": "She talked enthusiastically (expressed enthusiasm) about her new car.",
+      "full_text": "She talked enthusiastically (expressed enthusiasm) about her new car."
+    },
+    {
+      "term": "Etc",
+      "pattern": "\\bEtc\\b",
+      "replacement": "",
+      "explanation": "Literally, \"and other things\"; sometimes loosely used to mean \"and other persons.\" The phrase is equivalent to and the rest, and so forth, and hence is not to be used if one of these would be insufficient \u2014that is, if",
+      "full_text": "Literally, \"and other things\"; sometimes loosely used to mean \"and other persons.\" The phrase is\nequivalent to and the rest, and so forth, and hence is not to be used if one of these would be insufficient\n\u2014that is, if the reader would be left in doubt as to any important particulars. Least open to o"
+    },
+    {
+      "term": "Fact",
+      "pattern": "\\bFact\\b",
+      "replacement": "",
+      "explanation": "Use this word only of matters capable of direct verification, not of matters of judgment. That a particular event happened on a given date and that lead melts at a certain temperature are facts. But such conclusions as that Napoleon",
+      "full_text": "Use this word only of matters capable of direct verification, not of matters of judgment. That a\nparticular event happened on a given date and that lead melts at a certain temperature are facts. But such\nconclusions as that Napoleon was the greatest of modern generals or that the climate of Californ"
+    },
+    {
+      "term": "Facility",
+      "pattern": "\\bFacility\\b",
+      "replacement": "",
+      "explanation": "Why must jails, hospitals, and schools suddenly become \"facilities\"?",
+      "full_text": "Why must jails, hospitals, and schools suddenly become \"facilities\"?"
+    },
+    {
+      "term": "Factor",
+      "pattern": "\\bFactor\\b",
+      "replacement": "",
+      "explanation": "A hackneyed word; the expressions of which it is a part can usually be replaced by something more direct and idiomatic.",
+      "full_text": "A hackneyed word; the expressions of which it is a part can usually be replaced by something\nmore direct and idiomatic."
+    },
+    {
+      "term": "Farther",
+      "pattern": "\\bFarther\\b",
+      "replacement": "",
+      "explanation": "Further. The two words are commonly interchanged, but there is a distinction worth observing:/art/ier serves best as a distance word, further as a time or quantity word. You chase a ball farther than the other fellow; you pursue a subject",
+      "full_text": "Further. The two words are commonly interchanged, but there is a distinction worth\nobserving:/art/ier serves best as a distance word, further as a time or quantity word. You chase a ball\nfarther than the other fellow; you pursue a subject further."
+    },
+    {
+      "term": "Feature",
+      "pattern": "\\bFeature\\b",
+      "replacement": "",
+      "explanation": "Another hackneyed word; like factor, it usually adds nothing to the sentence in which it occurs. A feature of the entertainment especially worthy of mention was the singing of Allison Jones, (Better use the same number of words to tell",
+      "full_text": "Another hackneyed word; like factor, it usually adds nothing to the sentence in which it occurs.\nA feature of the entertainment especially worthy of mention was the singing of Allison Jones,\n(Better use the same number of words to tell what Allison Jones sang and how she sang it.)\nAs a verb, in the "
+    },
+    {
+      "term": "Finalize",
+      "pattern": "\\bFinalize\\b",
+      "replacement": "",
+      "explanation": "A pompous, ambiguous verb. (See Chapter V, Reminder 21.)",
+      "full_text": "A pompous, ambiguous verb. (See Chapter V, Reminder 21.)"
+    },
+    {
+      "term": "Fix",
+      "pattern": "\\bFix\\b",
+      "replacement": "",
+      "explanation": "Colloquial in America for arrange, prepare, mend. The usage is well established. But bear in mind that this verb is from figere: \"to make firm.\" \"to place definitely.\" These are the preferred meanings of the word.",
+      "full_text": "Colloquial in America for arrange, prepare, mend. The usage is well established. But bear in mind\nthat this verb is from figere: \"to make firm.\" \"to place definitely.\" These are the preferred meanings of\nthe word."
+    },
+    {
+      "term": "Flammable",
+      "pattern": "\\bFlammable\\b",
+      "replacement": "",
+      "explanation": "An oddity, chiefly useful in saving lives. The common word meaning \"combustible\" is inflammable. But some people are thrown off by the in- and think inflammable means \"not combustible.\" For this reason. gasoline or explosives are now marked FLAMMABLE. Unless",
+      "full_text": "An oddity, chiefly useful in saving lives. The common word meaning \"combustible\" is\ninflammable. But some people are thrown off by the in- and think inflammable means \"not\ncombustible.\" For this reason. gasoline or explosives are now marked FLAMMABLE. Unless you are\noperating such a truck and hence "
+    },
+    {
+      "term": "Folk",
+      "pattern": "\\bFolk\\b",
+      "replacement": "",
+      "explanation": "A collective noun, equivalent to people. Use the singular form only. Folks, in the sense of \"parents,\" \"family,\" \"those present,\" is colloquial and to folksy for formal writing.",
+      "full_text": "A collective noun, equivalent to people. Use the singular form only. Folks, in the sense of\n\"parents,\" \"family,\" \"those present,\" is colloquial and to folksy for formal writing."
+    },
+    {
+      "term": "Fortuitous",
+      "pattern": "\\bFortuitous\\b",
+      "replacement": "",
+      "explanation": "Limited to what to be used for fortunate or lucky.",
+      "full_text": "Limited to what to be used for fortunate or lucky."
+    },
+    {
+      "term": "Get",
+      "pattern": "\\bGet\\b",
+      "replacement": "",
+      "explanation": "The colloquial have got for have should not be used in writing. The preferable form of the participle is got, not gotten.",
+      "full_text": "The colloquial have got for have should not be used in writing. The preferable form of the\nparticiple is got, not gotten."
+    },
+    {
+      "term": "He has no sense",
+      "pattern": "\\bHe\\s+has\\s+no\\s+sense\\b",
+      "replacement": "",
+      "explanation": "They returned without having got any.",
+      "full_text": "They returned without having got any."
+    },
+    {
+      "term": "Gratuitous",
+      "pattern": "\\bGratuitous\\b",
+      "replacement": "",
+      "explanation": "Means \"unearned,\" or \"unwarranted.\" The insult seemed gratuitous, (undeserved)",
+      "full_text": "Means \"unearned,\" or \"unwarranted.\"\nThe insult seemed gratuitous, (undeserved)"
+    },
+    {
+      "term": "He is a man who",
+      "pattern": "\\bHe\\s+is\\s+a\\s+man\\s+who\\b",
+      "replacement": "he",
+      "explanation": "A common type of redundant expression; see Rule 17.",
+      "full_text": "A common type of redundant expression; see Rule 17."
+    },
+    {
+      "term": "Hopefully",
+      "pattern": "\\bHopefully\\b",
+      "replacement": "",
+      "explanation": "This once-useful adverb meaning \"with hope\" has been distorted and is now widely used to mean \"I hope\" or \"it is to be hoped.\" Such use is not merely wrong, it is silly. To say, \"Hopefully I'll leave on the",
+      "full_text": "This once-useful adverb meaning \"with hope\" has been distorted and is now widely used to\nmean \"I hope\" or \"it is to be hoped.\" Such use is not merely wrong, it is silly. To say, \"Hopefully I'll\nleave on the noon plane\" is to talk nonsense. Do you mean you'll leave on the noon plane in a hopeful\nfram"
+    },
+    {
+      "term": "However",
+      "pattern": "\\bHowever\\b",
+      "replacement": "",
+      "explanation": "Avoid starting a sentence with however when the meaning is \"nevertheless.\" The word usually serves better when not in first position.",
+      "full_text": "Avoid starting a sentence with however when the meaning is \"nevertheless.\" The word usually\nserves better when not in first position."
+    },
+    {
+      "term": "The roads were almost impassable",
+      "pattern": "\\bThe\\s+roads\\s+were\\s+almost\\s+impassable\\b",
+      "replacement": "",
+      "explanation": "However, we at last succeeded in reaching camp.",
+      "full_text": "However, we at last succeeded in reaching camp."
+    },
+    {
+      "term": "The roads were almost impassable",
+      "pattern": "\\bThe\\s+roads\\s+were\\s+almost\\s+impassable\\b",
+      "replacement": "",
+      "explanation": "At last, however, we succeeded in reaching camp. When however comes first, it means \"in whatever way\" or \"to whatever extent.\" However you advise him, he will probably do as he thinks best. However discouraging the prospect, they never lost",
+      "full_text": "At last, however, we succeeded in reaching camp.\nWhen however comes first, it means \"in whatever way\" or \"to whatever extent.\"\nHowever you advise him, he will probably do as he thinks best.\nHowever discouraging the prospect, they never lost heart."
+    },
+    {
+      "term": "Illusion",
+      "pattern": "\\bIllusion\\b",
+      "replacement": "",
+      "explanation": "See allusion.",
+      "full_text": "See allusion."
+    },
+    {
+      "term": "Imply",
+      "pattern": "\\bImply\\b",
+      "replacement": "",
+      "explanation": "Infer. Not interchangeable. Something implied is something suggested or indicated, though not expressed. Something inferred is something deduced from evidence at hand.",
+      "full_text": "Infer. Not interchangeable. Something implied is something suggested or indicated, though not\nexpressed. Something inferred is something deduced from evidence at hand."
+    },
+    {
+      "term": "Farming implies early rising",
+      "pattern": "\\bFarming\\s+implies\\s+early\\s+rising\\b",
+      "replacement": "",
+      "explanation": "Since she was a farmer, we inferred that she got up early. Importantly. Avoid by rephrasing. More importantly, he paid for the damages. What's more, he paid for the damages. With the breeze freshening, he altered course to pass inside",
+      "full_text": "Since she was a farmer, we inferred that she got up early.\n\n\fImportantly. Avoid by rephrasing.\nMore importantly, he paid for the damages.\nWhat's more, he paid for the damages.\nWith the breeze freshening, he altered course to pass inside the island. More importantly, as\nthings turned out, he tucked i"
+    },
+    {
+      "term": "In regard to",
+      "pattern": "\\bIn\\s+regard\\s+to\\b",
+      "replacement": "",
+      "explanation": "Often wrongly written in regards to. But as regards is correct, and means the same thing.",
+      "full_text": "Often wrongly written in regards to. But as regards is correct, and means the same thing."
+    },
+    {
+      "term": "In the last analysis",
+      "pattern": "\\bIn\\s+the\\s+last\\s+analysis\\b",
+      "replacement": "finally",
+      "explanation": "A bankrupt expression.",
+      "full_text": "A bankrupt expression."
+    },
+    {
+      "term": "Inside of",
+      "pattern": "\\bInside\\s+of\\b",
+      "replacement": "inside",
+      "explanation": "Inside. The of following inside is correct in the adverbial meaning \"in less than.\" In other meanings, of is unnecessary. Inside of five minutes I'll be inside the bank.",
+      "full_text": "Inside. The of following inside is correct in the adverbial meaning \"in less than.\" In other\nmeanings, of is unnecessary.\nInside of five minutes I'll be inside the bank."
+    },
+    {
+      "term": "Insightful",
+      "pattern": "\\bInsightful\\b",
+      "replacement": "",
+      "explanation": "The word is a suspicious overstatement for \"perceptive.\" If it is to be used at all, it should be used for instances of remarkably penetrating vision. Usually, it crops up merely to inflate the commonplace.",
+      "full_text": "The word is a suspicious overstatement for \"perceptive.\" If it is to be used at all, it should be\nused for instances of remarkably penetrating vision. Usually, it crops up merely to inflate the\ncommonplace."
+    },
+    {
+      "term": "In terms of",
+      "pattern": "\\bIn\\s+terms\\s+of\\b",
+      "replacement": "in",
+      "explanation": "A piece of padding usually best omitted.",
+      "full_text": "A piece of padding usually best omitted."
+    },
+    {
+      "term": "Interesting",
+      "pattern": "\\bInteresting\\b",
+      "replacement": "",
+      "explanation": "An unconvincing word; avoid it as a means of introduction. Instead of announcing that what you are about to tell is interesting, make it so. An interesting story is told of (Tell the story without preamble.)",
+      "full_text": "An unconvincing word; avoid it as a means of introduction. Instead of announcing that what\nyou are about to tell is interesting, make it so.\nAn interesting story is told of\n(Tell the story without preamble.)"
+    },
+    {
+      "term": "Mr",
+      "pattern": "\\bMr\\b",
+      "replacement": "",
+      "explanation": "B., who will soon visit America",
+      "full_text": "B., who will soon visit America"
+    },
+    {
+      "term": "Kind of",
+      "pattern": "\\bKind\\s+of\\b",
+      "replacement": "",
+      "explanation": "Except in familiar style, not to be used as a substitute for rather or something like. Restrict it to its literal sense: \"Amber is a kind of fossil resin\"; \"I dislike that kind of publicity.\" The same holds true for",
+      "full_text": "Except in familiar style, not to be used as a substitute for rather or something like. Restrict it to\nits literal sense: \"Amber is a kind of fossil resin\"; \"I dislike that kind of publicity.\" The same holds true\nfor sort of."
+    },
+    {
+      "term": "Lay",
+      "pattern": "\\bLay\\b",
+      "replacement": "",
+      "explanation": "A transitive verb. Except in slang (\"Let it lay\"), do not misuse it for the intransitive verb lie. The hen, or the play, lays an egg; the llama lies down. The playwright went home and lay down. lie, lay, lain,",
+      "full_text": "A transitive verb. Except in slang (\"Let it lay\"), do not misuse it for the intransitive verb lie. The\nhen, or the play, lays an egg; the llama lies down. The playwright went home and lay down.\nlie, lay, lain, lying\nlay, laid, laid, laying"
+    },
+    {
+      "term": "Leave",
+      "pattern": "\\bLeave\\b",
+      "replacement": "",
+      "explanation": "Not to be misused for let.",
+      "full_text": "Not to be misused for let."
+    },
+    {
+      "term": "Less",
+      "pattern": "\\bLess\\b",
+      "replacement": "",
+      "explanation": "Should not be misused for fewer.",
+      "full_text": "Should not be misused for fewer."
+    },
+    {
+      "term": "Like",
+      "pattern": "\\bLike\\b",
+      "replacement": "",
+      "explanation": "Not to be used for the conjunction as. Like governs nouns and pronouns; before phrases and clauses the equivalent word is as.",
+      "full_text": "Not to be used for the conjunction as. Like governs nouns and pronouns; before phrases and\nclauses the equivalent word is as."
+    },
+    {
+      "term": "Line",
+      "pattern": "\\bLine\\b",
+      "replacement": "",
+      "explanation": "Along these lines. Line in the sense of \"course of procedure, conduct, thought\" is allowable but has been so overworked, particularly in the phrase along these lines, that a writer who aims at freshness or originality had better discard it",
+      "full_text": "Along these lines. Line in the sense of \"course of procedure, conduct, thought\" is allowable but\nhas been so overworked, particularly in the phrase along these lines, that a writer who aims at freshness\nor originality had better discard it entirely."
+    },
+    {
+      "term": "Mr",
+      "pattern": "\\bMr\\b",
+      "replacement": "",
+      "explanation": "B. also spoke along the same lines.",
+      "full_text": "B. also spoke along the same lines."
+    },
+    {
+      "term": "Mr",
+      "pattern": "\\bMr\\b",
+      "replacement": "",
+      "explanation": "B. also spoke to the same effect.",
+      "full_text": "B. also spoke to the same effect."
+    },
+    {
+      "term": "Literal",
+      "pattern": "\\bLiteral\\b",
+      "replacement": "",
+      "explanation": "Literally. Often incorrectly used in support of exaggeration or violent metaphor. a literal flood of abuse a flood of abuse literally dead with fatigue almost dead with fatigue",
+      "full_text": "Literally. Often incorrectly used in support of exaggeration or violent metaphor.\na literal flood of abuse\na flood of abuse\nliterally dead with fatigue\nalmost dead with fatigue"
+    },
+    {
+      "term": "Loan",
+      "pattern": "\\bLoan\\b",
+      "replacement": "",
+      "explanation": "A noun. As a verb, prefer lend. Lend me your ears, the loan of your ears",
+      "full_text": "A noun. As a verb, prefer lend. Lend me your ears, the loan of your ears"
+    },
+    {
+      "term": "Meaningful",
+      "pattern": "\\bMeaningful\\b",
+      "replacement": "significant",
+      "explanation": "A bankrupt adjective. Choose another, or rephrase.",
+      "full_text": "A bankrupt adjective. Choose another, or rephrase."
+    },
+    {
+      "term": "Most",
+      "pattern": "\\bMost\\b",
+      "replacement": "",
+      "explanation": "Not to be used for almost in formal composition, most everybody almost everybody most all the time almost all the time",
+      "full_text": "Not to be used for almost in formal composition, most everybody almost everybody most all the\ntime almost all the time"
+    },
+    {
+      "term": "Nature",
+      "pattern": "\\bNature\\b",
+      "replacement": "",
+      "explanation": "Often simply redundant, used like character. acts of a hostile nature hostile acts Nature should be avoided in such vague expressions as \"a lover of nature,\" \"poems about nature.\" Unless more specific statements follow, the reader cannot tell whether the",
+      "full_text": "Often simply redundant, used like character.\nacts of a hostile nature\nhostile acts\nNature should be avoided in such vague expressions as \"a lover of nature,\" \"poems about nature.\"\nUnless more specific statements follow, the reader cannot tell whether the poems have to do with natural\nscenery, rural "
+    },
+    {
+      "term": "Nauseous",
+      "pattern": "\\bNauseous\\b",
+      "replacement": "",
+      "explanation": "Nauseated. The first means \"sickening to contemplate\"; the second means \"sick at the stomach.\" Do not, therefore, say, \"I feel nauseous,\" unless you are sure you have that effect on others.",
+      "full_text": "Nauseated. The first means \"sickening to contemplate\"; the second means \"sick at the\nstomach.\" Do not, therefore, say, \"I feel nauseous,\" unless you are sure you have that effect on others."
+    },
+    {
+      "term": "Nice",
+      "pattern": "\\bNice\\b",
+      "replacement": "",
+      "explanation": "A shaggy, all-purpose word, to be used sparingly in formal composition.- \"I had a nice time.\" \"It was nice weather.\" \"She was so nice to her mother.\" The meanings are indistinct. Nice is most useful in the sense of \"precise\"",
+      "full_text": "A shaggy, all-purpose word, to be used sparingly in formal composition.- \"I had a nice time.\" \"It\nwas nice weather.\" \"She was so nice to her mother.\" The meanings are indistinct. Nice is most useful in\nthe sense of \"precise\" or \"delicate\": \"a nice distinction.\""
+    },
+    {
+      "term": "Nor",
+      "pattern": "\\bNor\\b",
+      "replacement": "",
+      "explanation": "Often used wrongly for or after negative expressions.",
+      "full_text": "Often used wrongly for or after negative expressions."
+    },
+    {
+      "term": "Noun used as verb",
+      "pattern": "\\bNoun\\s+used\\s+as\\s+verb\\b",
+      "replacement": "",
+      "explanation": "Many nouns have lately been pressed into service as verbs. Not all are bad, but all are suspect.",
+      "full_text": "Many nouns have lately been pressed into service as verbs. Not all are bad, but all\nare suspect."
+    },
+    {
+      "term": "The meeting was chaired by Mr",
+      "pattern": "\\bThe\\s+meeting\\s+was\\s+chaired\\s+by\\s+Mr\\b",
+      "replacement": "",
+      "explanation": "Oglethorp.",
+      "full_text": "Oglethorp."
+    },
+    {
+      "term": "Mr",
+      "pattern": "\\bMr\\b",
+      "replacement": "",
+      "explanation": "Oglethorp was chair of the meeting.",
+      "full_text": "Oglethorp was chair of the meeting."
+    },
+    {
+      "term": "She headquarters in Newark",
+      "pattern": "\\bShe\\s+headquarters\\s+in\\s+Newark\\b",
+      "replacement": "",
+      "explanation": "She has headquarters in Newark.",
+      "full_text": "She has headquarters in Newark."
+    },
+    {
+      "term": "Offputting",
+      "pattern": "\\bOffputting\\b",
+      "replacement": "",
+      "explanation": "Ongoing. Newfound adjectives, to be avoided because they are inexact and clumsy. Ongoing is a mix of \"continuing\" and \"active\" and is usually superfluous.",
+      "full_text": "Ongoing. Newfound adjectives, to be avoided because they are inexact and clumsy.\nOngoing is a mix of \"continuing\" and \"active\" and is usually superfluous."
+    },
+    {
+      "term": "One",
+      "pattern": "\\bOne\\b",
+      "replacement": "",
+      "explanation": "In the sense of \"a person,\" not to be followed by his or her.",
+      "full_text": "In the sense of \"a person,\" not to be followed by his or her."
+    },
+    {
+      "term": "One must watch his step",
+      "pattern": "\\bOne\\s+must\\s+watch\\s+his\\s+step\\b",
+      "replacement": "",
+      "explanation": "One must watch one's step. (You must watch your step.)",
+      "full_text": "One must watch one's step. (You must watch your step.)"
+    },
+    {
+      "term": "One of the most",
+      "pattern": "\\bOne\\s+of\\s+the\\s+most\\b",
+      "replacement": "a",
+      "explanation": "Avoid this feeble formula. \"One of the most exciting developments of modern science is\u2026\"; \"Switzerland is one of the most beautiful countries of Europe.\" There is nothing wrong with the grammar; the formula is simply threadbare. -oriented. A clumsy, pretentious",
+      "full_text": "Avoid this feeble formula. \"One of the most exciting developments of modern science\nis\u2026\"; \"Switzerland is one of the most beautiful countries of Europe.\" There is nothing wrong with the\ngrammar; the formula is simply threadbare.\n-oriented. A clumsy, pretentious device, much in vogue. Find a better w"
+    },
+    {
+      "term": "Partially",
+      "pattern": "\\bPartially\\b",
+      "replacement": "partly",
+      "explanation": "Not always interchangeable with partly. Best used in the sense of \"to a certain degree,\" when speaking of a condition or state: \"I'm partially resigned to it.\" Partly carries the idea of a part as distinct from the whole\u2014 usually",
+      "full_text": "Not always interchangeable with partly. Best used in the sense of \"to a certain degree,\" when\nspeaking of a condition or state: \"I'm partially resigned to it.\" Partly carries the idea of a part as distinct\nfrom the whole\u2014 usually a physical object."
+    },
+    {
+      "term": "People",
+      "pattern": "\\bPeople\\b",
+      "replacement": "",
+      "explanation": "A word with many meanings. (The American Heritage Dictionary, Third Edition, gives nine.) The people is a political term, not to be confused with the public. From the people comes political support or opposition; from the public comes artistic appreciation",
+      "full_text": "A word with many meanings. (The American Heritage Dictionary, Third Edition, gives nine.)\nThe people is a political term, not to be confused with the public. From the people comes political\nsupport or opposition; from the public comes artistic appreciation or commercial patronage.\nThe word people is"
+    },
+    {
+      "term": "Personalize",
+      "pattern": "\\bPersonalize\\b",
+      "replacement": "customize",
+      "explanation": "A pretentious word, often carrying bad advice. Do not personalize your prose; simply make it good and keep it clean. See Chapter V, Reminder 1. a highly personalized affair a highly personal affair",
+      "full_text": "A pretentious word, often carrying bad advice. Do not personalize your prose; simply make\nit good and keep it clean. See Chapter V, Reminder 1.\na highly personalized affair\na highly personal affair"
+    },
+    {
+      "term": "Personally",
+      "pattern": "\\bPersonally\\b",
+      "replacement": "",
+      "explanation": "Often unnecessary. Personally, I thought it was a good book. I thought it a good book.",
+      "full_text": "Often unnecessary.\nPersonally, I thought it was a good book.\n\n\fI thought it a good book."
+    },
+    {
+      "term": "Possess",
+      "pattern": "\\bPossess\\b",
+      "replacement": "have",
+      "explanation": "Often used because to the writer it sounds more impressive than have or own. Such usage is not incorrect but is to be guarded against.",
+      "full_text": "Often used because to the writer it sounds more impressive than have or own. Such usage is not\nincorrect but is to be guarded against."
+    },
+    {
+      "term": "She possessed great courage",
+      "pattern": "\\bShe\\s+possessed\\s+great\\s+courage\\b",
+      "replacement": "",
+      "explanation": "She had great courage (was very brave).",
+      "full_text": "She had great courage (was very brave)."
+    },
+    {
+      "term": "Presently",
+      "pattern": "\\bPresently\\b",
+      "replacement": "",
+      "explanation": "Has two meanings: \"in a short while\" and \"currently.\" Because of this ambiguity it is best restricted to the first meaning: \"She'll be here presently\" (\"soon,\" or \"in a short time\").",
+      "full_text": "Has two meanings: \"in a short while\" and \"currently.\" Because of this ambiguity it is best\nrestricted to the first meaning: \"She'll be here presently\" (\"soon,\" or \"in a short time\")."
+    },
+    {
+      "term": "Prestigious",
+      "pattern": "\\bPrestigious\\b",
+      "replacement": "",
+      "explanation": "Often an adjective of last resort. It's in the dictionary, but that doesn't mean you have to use it.",
+      "full_text": "Often an adjective of last resort. It's in the dictionary, but that doesn't mean you have to use\nit."
+    },
+    {
+      "term": "Refer",
+      "pattern": "\\bRefer\\b",
+      "replacement": "",
+      "explanation": "See allude.",
+      "full_text": "See allude."
+    },
+    {
+      "term": "Regretful",
+      "pattern": "\\bRegretful\\b",
+      "replacement": "",
+      "explanation": "Sometimes carelessly used for regrettable: \"The mixup was due to a regretful breakdown in communications.\"",
+      "full_text": "Sometimes carelessly used for regrettable: \"The mixup was due to a regretful breakdown in\ncommunications.\""
+    },
+    {
+      "term": "Relate",
+      "pattern": "\\bRelate\\b",
+      "replacement": "",
+      "explanation": "Not to be used intransitively to suggest rapport.",
+      "full_text": "Not to be used intransitively to suggest rapport."
+    },
+    {
+      "term": "Respective",
+      "pattern": "\\bRespective\\b",
+      "replacement": "",
+      "explanation": "Respectively. These words may usually be omitted with advantage.",
+      "full_text": "Respectively. These words may usually be omitted with advantage."
+    },
+    {
+      "term": "Shall",
+      "pattern": "\\bShall\\b",
+      "replacement": "",
+      "explanation": "Will. In formal writing, the future tense requires shall for the first person, will for the second and third. The formula to express the speaker's belief regarding a future action or state is I shall; I will expresses determination or",
+      "full_text": "Will. In formal writing, the future tense requires shall for the first person, will for the second and\n\n\fthird. The formula to express the speaker's belief regarding a future action or state is I shall; I will\nexpresses determination or consent. A swimmer in distress cries, \"I shall drown; no one wi"
+    },
+    {
+      "term": "So",
+      "pattern": "\\bSo\\b",
+      "replacement": "",
+      "explanation": "Avoid, in writing, the use of so as an intensifier: \"so good\"; \"so warm\"; \"so delightful.\"",
+      "full_text": "Avoid, in writing, the use of so as an intensifier: \"so good\"; \"so warm\"; \"so delightful.\""
+    },
+    {
+      "term": "Sort of",
+      "pattern": "\\bSort\\s+of\\b",
+      "replacement": "",
+      "explanation": "See kind of.",
+      "full_text": "See kind of."
+    },
+    {
+      "term": "Split infinitive",
+      "pattern": "\\bSplit\\s+infinitive\\b",
+      "replacement": "",
+      "explanation": "There is precedent from the fourteenth century down for interposing an adverb between to and the infinitive it governs, but the construction should be avoided unless the writer wishes to place unusual stress on the adverb. to diligently inquire to",
+      "full_text": "There is precedent from the fourteenth century down for interposing an adverb between\nto and the infinitive it governs, but the construction should be avoided unless the writer wishes to place\nunusual stress on the adverb.\nto diligently inquire\nto inquire diligently\nFor another side to the split inf"
+    },
+    {
+      "term": "State",
+      "pattern": "\\bState\\b",
+      "replacement": "",
+      "explanation": "Not to be used as a mere substitute for say, remark. Restrict it to the sense of \"express fully or clearly\": \"He refused to state his objections.\"",
+      "full_text": "Not to be used as a mere substitute for say, remark. Restrict it to the sense of \"express fully or\nclearly\": \"He refused to state his objections.\""
+    },
+    {
+      "term": "Student body",
+      "pattern": "\\bStudent\\s+body\\b",
+      "replacement": "",
+      "explanation": "Nine times out of ten a needless and awkward expression, meaning no more than the simple word students. a member of the student body a student popular with the student body liked by the students",
+      "full_text": "Nine times out of ten a needless and awkward expression, meaning no more than the\nsimple word students.\na member of the student body\na student\npopular with the student body\nliked by the students"
+    },
+    {
+      "term": "Than",
+      "pattern": "\\bThan\\b",
+      "replacement": "",
+      "explanation": "Any sentence with than (to express comparison) should be examined to make sure no essential words are missing. I'm probably closer to my mother than my father. (Ambiguous.) I'm probably closer to my mother than to my father. I'm probably",
+      "full_text": "Any sentence with than (to express comparison) should be examined to make sure no essential\nwords are missing.\nI'm probably closer to my mother than my father. (Ambiguous.)\nI'm probably closer to my mother than to my father.\nI'm probably closer to my mother than my father is."
+    },
+    {
+      "term": "That",
+      "pattern": "\\bThat\\b",
+      "replacement": "",
+      "explanation": "Which. That is the defining, or restrictive, pronoun, which die nondefming, or nonrestrictive. (See Rule 3.) The lawn mower that is broken is in the garage. (Tells which one.) The lawn mower, which is broken, is in the garage. (Adds",
+      "full_text": "Which. That is the defining, or restrictive, pronoun, which die nondefming, or nonrestrictive. (See\nRule 3.)\nThe lawn mower that is broken is in the garage. (Tells which one.)\nThe lawn mower, which is broken, is in the garage. (Adds a fact about the only mower in\nquestion.)\nThe use of which for that"
+    },
+    {
+      "term": "The foreseeable future",
+      "pattern": "\\bThe\\s+foreseeable\\s+future\\b",
+      "replacement": "soon",
+      "explanation": "A cliche, and a fuzzy one. How much of the future is foreseeable? Ten minutes? Ten years? Any of it? By whom is it foreseeable? Seers? Experts? Everybody? The truth is. . . . The fact is. . . .",
+      "full_text": "A cliche, and a fuzzy one. How much of the future is foreseeable? Ten minutes?\nTen years? Any of it? By whom is it foreseeable? Seers? Experts? Everybody?\nThe truth is. . . . The fact is. . . . A bad beginning for a sentence. If you feel you are possessed of the\ntruth, or of the fact, simply state i"
+    },
+    {
+      "term": "They",
+      "pattern": "\\bThey\\b",
+      "replacement": "",
+      "explanation": "He or She. Do not use they when the antecedent is a distributive expression such as each, each one, everybody, every one, many a man. Use the singular pronoun.",
+      "full_text": "He or She. Do not use they when the antecedent is a distributive expression such as each, each\none, everybody, every one, many a man. Use the singular pronoun."
+    },
+    {
+      "term": "Eliminate the pronoun altogether",
+      "pattern": "\\bEliminate\\s+the\\s+pronoun\\s+altogether\\b",
+      "replacement": "",
+      "explanation": "The writer must address his readers' concerns. The writer must address readers' concerns.",
+      "full_text": "The writer must address his readers' concerns.\nThe writer must address readers' concerns."
+    },
+    {
+      "term": "This",
+      "pattern": "\\bThis\\b",
+      "replacement": "",
+      "explanation": "The pronoun this, referring to the complete sense of a preceding sentence or clause, can't always carry the load and so may produce an imprecise statement.",
+      "full_text": "The pronoun this, referring to the complete sense of a preceding sentence or clause, can't always\ncarry the load and so may produce an imprecise statement."
+    },
+    {
+      "term": "Thrust",
+      "pattern": "\\bThrust\\b",
+      "replacement": "",
+      "explanation": "This showy noun, suggestive of power, hinting of sex, is the darling of executives, politicos, and speech-writers. Use it sparingly. Save it for specific application. Our reorganization plan has a tremendous thrust.",
+      "full_text": "This showy noun, suggestive of power, hinting of sex, is the darling of executives, politicos, and\nspeech-writers. Use it sparingly. Save it for specific application.\n\n\fOur reorganization plan has a tremendous thrust."
+    },
+    {
+      "term": "The piston has a five-inch thrust",
+      "pattern": "\\bThe\\s+piston\\s+has\\s+a\\s+five\\-inch\\s+thrust\\b",
+      "replacement": "",
+      "explanation": "The thrust of his letter was that he was working more hours than he'd bargained for. The point he made in his letter was that he was working more hours than he'd bargained for.",
+      "full_text": "The thrust of his letter was that he was working more hours than he'd bargained for.\nThe point he made in his letter was that he was working more hours than he'd bargained for."
+    },
+    {
+      "term": "Tortuous",
+      "pattern": "\\bTortuous\\b",
+      "replacement": "",
+      "explanation": "Torturous. A winding road is tortuous, a painful ordeal is torturous. Both words carry the idea of \"twist,\" the twist having been a form of torture.",
+      "full_text": "Torturous. A winding road is tortuous, a painful ordeal is torturous. Both words carry the\nidea of \"twist,\" the twist having been a form of torture."
+    },
+    {
+      "term": "Transpire",
+      "pattern": "\\bTranspire\\b",
+      "replacement": "",
+      "explanation": "Not to be used in the sense of \"happen,\" \"come to pass.\" Many writers so use it (usually when groping toward imagined elegance), but their usage finds little support in the Latin \"breathe across or through.\" It is correct, however,",
+      "full_text": "Not to be used in the sense of \"happen,\" \"come to pass.\" Many writers so use it (usually\nwhen groping toward imagined elegance), but their usage finds little support in the Latin \"breathe across\nor through.\" It is correct, however, in the sense of \"become known.\" \"Eventually, the grim account of his"
+    },
+    {
+      "term": "Try",
+      "pattern": "\\bTry\\b",
+      "replacement": "",
+      "explanation": "Takes the infinitive: \"try to mend it,\" not \"try and mend it.\" Students of the language will argue that try and has won through and become idiom. Indeed it has, and it is relaxed and acceptable. But try to is",
+      "full_text": "Takes the infinitive: \"try to mend it,\" not \"try and mend it.\" Students of the language will argue that\ntry and has won through and become idiom. Indeed it has, and it is relaxed and acceptable. But try to is\nprecise, and when you are writing formal prose, try and write try to."
+    },
+    {
+      "term": "Type",
+      "pattern": "\\bType\\b",
+      "replacement": "",
+      "explanation": "Not a synonym for kind of. The examples below are common vulgarisms. that type employee that kind of employee",
+      "full_text": "Not a synonym for kind of. The examples below are common vulgarisms.\nthat type employee\nthat kind of employee"
+    },
+    {
+      "term": "I dislike that type publicity",
+      "pattern": "\\bI\\s+dislike\\s+that\\s+type\\s+publicity\\b",
+      "replacement": "",
+      "explanation": "I dislike that land of publicity. small, home-type hotels small, homelike hotels a new type plane a plane of a new design (new kind)",
+      "full_text": "I dislike that land of publicity.\nsmall, home-type hotels\nsmall, homelike hotels\na new type plane\na plane of a new design (new kind)"
+    },
+    {
+      "term": "Unique",
+      "pattern": "\\bUnique\\b",
+      "replacement": "",
+      "explanation": "Means \"without like or equal.\" Hence, there can be no degrees of uniqueness.",
+      "full_text": "Means \"without like or equal.\" Hence, there can be no degrees of uniqueness."
+    },
+    {
+      "term": "The balancing act was unique",
+      "pattern": "\\bThe\\s+balancing\\s+act\\s+was\\s+unique\\b",
+      "replacement": "",
+      "explanation": "Of all the spiders, the one that lives in a bubble under water is the most unique. Among spiders, the one that lives in a bubble under water is unique. Utilize. Prefer use.",
+      "full_text": "Of all the spiders, the one that lives in a bubble under water is the most unique.\nAmong spiders, the one that lives in a bubble under water is unique.\n\n\fUtilize. Prefer use."
+    },
+    {
+      "term": "Verbal",
+      "pattern": "\\bVerbal\\b",
+      "replacement": "spoken",
+      "explanation": "Sometimes means \"word for word\" and in this sense may refer to something expressed in writing. Oral (from Latin as, \"mouth\") limits the meaning to what is transmitted by speech. Oral agreement is more precise than verbal agreement.",
+      "full_text": "Sometimes means \"word for word\" and in this sense may refer to something expressed in\nwriting. Oral (from Latin as, \"mouth\") limits the meaning to what is transmitted by speech. Oral\nagreement is more precise than verbal agreement."
+    },
+    {
+      "term": "Very",
+      "pattern": "\\bVery\\b",
+      "replacement": "",
+      "explanation": "Use this word sparingly. Where emphasis is necessary, use words strong in themselves.",
+      "full_text": "Use this word sparingly. Where emphasis is necessary, use words strong in themselves."
+    },
+    {
+      "term": "While",
+      "pattern": "\\bWhile\\b",
+      "replacement": "",
+      "explanation": "Avoid the indiscriminate use of this word for and, but, and although. Many writers use it frequently as a substitute for and or but, either from a mere desire to vary the connective or from doubt about which of the",
+      "full_text": "Avoid the indiscriminate use of this word for and, but, and although. Many writers use it\nfrequently as a substitute for and or but, either from a mere desire to vary the connective or from doubt\nabout which of the two connectives is more appropriate. In this use it is best replaced by a semicolon.\n"
+    },
+    {
+      "term": "Worth while",
+      "pattern": "\\bWorth\\s+while\\b",
+      "replacement": "",
+      "explanation": "Overworked as a term of vague approval and (with not) of disapproval. Strictly applicable only to actions: \"Is it worth while to telegraph?\"",
+      "full_text": "Overworked as a term of vague approval and (with not) of disapproval. Strictly applicable\nonly to actions: \"Is it worth while to telegraph?\""
+    },
+    {
+      "term": "His books are not worth while",
+      "pattern": "\\bHis\\s+books\\s+are\\s+not\\s+worth\\s+while\\b",
+      "replacement": "",
+      "explanation": "His books are not worth reading (are not worth one's while to read; do not repay reading). The adjective worthwhile (one word) is acceptable but emaciated. Use a stronger word. a worthwhile project a promising (useful, valuable, exciting) project",
+      "full_text": "His books are not worth reading (are not worth one's while to read; do not repay reading).\nThe adjective worthwhile (one word) is acceptable but emaciated. Use a stronger word.\na worthwhile project a\npromising (useful, valuable, exciting) project"
+    },
+    {
+      "term": "Would",
+      "pattern": "\\bWould\\b",
+      "replacement": "",
+      "explanation": "Commonly used to express habitual or repeated action. (\"He would get up early and prepare his own breakfast before he went to work.\") But when the idea of habit or repetition is expressed, in such phrases as once a year,",
+      "full_text": "Commonly used to express habitual or repeated action. (\"He would get up early and prepare his\nown breakfast before he went to work.\") But when the idea of habit or repetition is expressed, in such\nphrases as once a year, every day, each Sunday, the past tense, without would, is usually sufficient, a"
+    }
+  ],
+  "needless_words": [
+    {
+      "pattern": "and/or",
+      "replacement": "and or or"
+    },
+    {
+      "pattern": "as to whether",
+      "replacement": "whether"
+    },
+    {
+      "pattern": "as yet",
+      "replacement": "yet"
+    },
+    {
+      "pattern": "being that",
+      "replacement": "because"
+    },
+    {
+      "pattern": "care less",
+      "replacement": "care"
+    },
+    {
+      "pattern": "currently",
+      "replacement": "now"
+    },
+    {
+      "pattern": "each and every one",
+      "replacement": "each one"
+    },
+    {
+      "pattern": "in terms of",
+      "replacement": "in"
+    },
+    {
+      "pattern": "in the last analysis",
+      "replacement": "finally"
+    },
+    {
+      "pattern": "inside of",
+      "replacement": "inside"
+    },
+    {
+      "pattern": "irregardless",
+      "replacement": "regardless"
+    },
+    {
+      "pattern": "meaningful",
+      "replacement": "significant"
+    },
+    {
+      "pattern": "offhand",
+      "replacement": "offhanded"
+    },
+    {
+      "pattern": "one of the most",
+      "replacement": "a"
+    },
+    {
+      "pattern": "ongoing",
+      "replacement": "continuous"
+    },
+    {
+      "pattern": "oriented",
+      "replacement": "directed"
+    },
+    {
+      "pattern": "partially",
+      "replacement": "partly"
+    },
+    {
+      "pattern": "personalize",
+      "replacement": "customize"
+    },
+    {
+      "pattern": "possess",
+      "replacement": "have"
+    },
+    {
+      "pattern": "the foreseeable future",
+      "replacement": "soon"
+    },
+    {
+      "pattern": "try and",
+      "replacement": "try to"
+    },
+    {
+      "pattern": "utilize",
+      "replacement": "use"
+    },
+    {
+      "pattern": "verbal",
+      "replacement": "spoken"
+    },
+    {
+      "pattern": "there is no doubt that",
+      "replacement": "no doubt"
+    },
+    {
+      "pattern": "used for fuel purposes",
+      "replacement": "used for fuel"
+    },
+    {
+      "pattern": "he is a man who",
+      "replacement": "he"
+    },
+    {
+      "pattern": "in a hasty manner",
+      "replacement": "hastily"
+    },
+    {
+      "pattern": "the question as to whether",
+      "replacement": "whether"
+    },
+    {
+      "pattern": "owing to the fact that",
+      "replacement": "because"
+    },
+    {
+      "pattern": "in spite of the fact that",
+      "replacement": "though"
+    },
+    {
+      "pattern": "call your attention to the fact that",
+      "replacement": "remind you"
+    },
+    {
+      "pattern": "the fact that he had not succeeded",
+      "replacement": "his failure"
+    },
+    {
+      "pattern": "not honest",
+      "replacement": "dishonest"
+    },
+    {
+      "pattern": "did not remember",
+      "replacement": "forgot"
+    },
+    {
+      "pattern": "did not pay attention to",
+      "replacement": "ignored"
+    },
+    {
+      "pattern": "did not have much confidence in",
+      "replacement": "distrusted"
+    }
+  ],
+  "qualifiers": [
+    "rather",
+    "very",
+    "little",
+    "pretty",
+    "really"
+  ]
+}

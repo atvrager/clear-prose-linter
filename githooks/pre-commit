@@ -1,0 +1,13 @@
+#!/usr/bin/env bash
+# pre-commit - Checks staged prose files using prose_lint --diff.
+set -euo pipefail
+
+if command -v python3 >/dev/null 2>&1; then
+    if [ -f "./prose_lint.py" ]; then
+        python3 "./prose_lint.py" --diff
+    elif [ -f "./scripts/prose_lint.py" ]; then
+        python3 "./scripts/prose_lint.py" --diff
+    else
+        python3 -m prose_lint --diff 2>/dev/null || true
+    fi
+fi
