@@ -29,13 +29,18 @@ Before writing or reviewing text, determine the target style:
 - Read [Style Selection Matrix](./references/style_matrix.md) for full guidance.
 
 ### 2. Lint and Review Prose Files
-Run the linter to inspect prose files:
+Run `prose_lint` (available in `$PATH`) or invoke the bundled script:
 ```bash
-python3 prose_lint.py path/to/file.md
+prose_lint path/to/file.md
 ```
+Fallback if not in `$PATH`:
+```bash
+python3 ~/.gemini/config/skills/clear-prose/scripts/prose_lint.py path/to/file.md
+```
+
 To automatically apply safe word replacements:
 ```bash
-python3 prose_lint.py --fix path/to/file.md
+prose_lint --fix path/to/file.md
 ```
 
 ### 3. Write and Format Git Commit Messages
@@ -49,25 +54,25 @@ Always format git commit messages with these rules:
 
 To automatically reflow and format a commit message:
 ```bash
-python3 prose_lint.py --fix-commit < message.txt
+prose_lint --fix-commit < message.txt
 ```
 To check a commit message:
 ```bash
-python3 prose_lint.py --commit < message.txt
+prose_lint --commit < message.txt
 ```
 Read [Git Commit Style Guide](./references/commit_style.md) for details.
 
 ### 4. Install into Existing Projects
 To install the linter, git hooks, `AGENTS.md` guidelines, and skill into an existing repository:
 ```bash
-python3 prose_lint.py install /path/to/existing-repo
+prose_lint install /path/to/existing-repo
 ```
 Read [Project Installation Guide](./references/install_guide.md) for details.
 
 ### 5. Initialize a New Project
 To scaffold a new Git + Bazel project with prose guidelines pre-configured:
 ```bash
-python3 prose_lint.py init /path/to/new-repo
+prose_lint init /path/to/new-project
 ```
 
 ## References

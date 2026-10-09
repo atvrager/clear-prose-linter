@@ -3,10 +3,16 @@
 set -euo pipefail
 
 if command -v python3 >/dev/null 2>&1; then
-    if [ -f "./prose_lint.py" ]; then
-        python3 "./prose_lint.py" --diff
+    if [ -f "./utils/prose_lint.py" ]; then
+        python3 "./utils/prose_lint.py" --diff
     elif [ -f "./scripts/prose_lint.py" ]; then
         python3 "./scripts/prose_lint.py" --diff
+    elif [ -f "./prose_lint.py" ]; then
+        python3 "./prose_lint.py" --diff
+    elif [ -f "./.agents/skills/clear-prose/scripts/prose_lint.py" ]; then
+        python3 "./.agents/skills/clear-prose/scripts/prose_lint.py" --diff
+    elif [ -f "$HOME/.gemini/config/skills/clear-prose/scripts/prose_lint.py" ]; then
+        python3 "$HOME/.gemini/config/skills/clear-prose/scripts/prose_lint.py" --diff
     else
         python3 -m prose_lint --diff 2>/dev/null || true
     fi

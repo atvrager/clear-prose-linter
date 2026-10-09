@@ -73,8 +73,7 @@ sh_test(
 def setup_git_hooks(target_dir: Path) -> list[str]:
     """Installs commit-msg and pre-commit hooks safely."""
     actions: list[str] = []
-    hook_dir_name = ".githooks" if (target_dir / ".githooks").is_dir() else "githooks"
-    githooks_dir = target_dir / hook_dir_name
+    githooks_dir = target_dir / "githooks"
     githooks_dir.mkdir(parents=True, exist_ok=True)
 
     for hook_name in ("commit-msg", "pre-commit"):
@@ -90,13 +89,13 @@ def setup_git_hooks(target_dir: Path) -> list[str]:
     # Configure core.hooksPath if inside a git repository
     if (target_dir / ".git").exists():
         subprocess.run(
-            ["git", "config", "core.hooksPath", hook_dir_name],
+            ["git", "config", "core.hooksPath", "githooks"],
             cwd=target_dir,
             check=False,
             stdout=subprocess.DEVNULL,
             stderr=subprocess.DEVNULL,
         )
-        actions.append(f"Configured git core.hooksPath = {hook_dir_name}")
+        actions.append("Configured git core.hooksPath = githooks")
 
     return actions
 

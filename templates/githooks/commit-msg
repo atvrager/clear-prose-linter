@@ -6,10 +6,16 @@ MSG_FILE="$1"
 
 if command -v python3 >/dev/null 2>&1; then
     # Try local prose_lint.py or global installation
-    if [ -f "./prose_lint.py" ]; then
-        python3 "./prose_lint.py" --commit < "$MSG_FILE"
+    if [ -f "./utils/prose_lint.py" ]; then
+        python3 "./utils/prose_lint.py" --commit < "$MSG_FILE"
     elif [ -f "./scripts/prose_lint.py" ]; then
         python3 "./scripts/prose_lint.py" --commit < "$MSG_FILE"
+    elif [ -f "./prose_lint.py" ]; then
+        python3 "./prose_lint.py" --commit < "$MSG_FILE"
+    elif [ -f "./.agents/skills/clear-prose/scripts/prose_lint.py" ]; then
+        python3 "./.agents/skills/clear-prose/scripts/prose_lint.py" --commit < "$MSG_FILE"
+    elif [ -f "$HOME/.gemini/config/skills/clear-prose/scripts/prose_lint.py" ]; then
+        python3 "$HOME/.gemini/config/skills/clear-prose/scripts/prose_lint.py" --commit < "$MSG_FILE"
     else
         python3 -m prose_lint --commit < "$MSG_FILE" 2>/dev/null || true
     fi
