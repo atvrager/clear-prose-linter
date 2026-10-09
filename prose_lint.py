@@ -463,6 +463,28 @@ def get_git_tracked_prose(repo_root: Path = Path(".")) -> list[Path]:
         return []
 
 
+def get_staged_prose_files(repo_root: Path = Path(".")) -> list[Path]:
+    """Finds staged prose files from git diff --cached."""
+    try:
+        res = subprocess.run(
+            ["git", "diff", "--cached", "--name-only", "--diff-filter=ACM"],
+            cwd=repo_root,
+            capture_output=True,
+            text=True,
+            check=True,
+        )
+        files = []
+        for line in res.stdout.splitlines():
+            p = repo_root / line.strip()
+            if p.suffix.lower() in PROSE_EXTS and p.is_file():
+                parts = set(p.parts)
+                if not parts.intersection(SKIP_DIRS):
+                    files.append(p)
+        return files
+    except Exception:
+        return []
+
+
 def main() -> int:
     parser = argparse.ArgumentParser(description="Unified prose linter fusing Strunk & White and ASD-STE100")
     parser.add_argument("paths", nargs="*", help="Files or directories to lint")
@@ -519,7 +541,9 @@ def main() -> int:
 
     # Prose file mode
     target_files: list[Path] = []
-    if args.paths:
+    if args.diff:
+        target_files = get_staged_prose_files()
+    elif args.paths:
         for p_str in args.paths:
             p = Path(p_str)
             if p.is_file():
@@ -537,7 +561,10 @@ def main() -> int:
 
     if not target_files:
         if args.format == "text":
-            print("No prose files found to lint.")
+            if args.diff:
+                print("No staged prose files found to lint.")
+            else:
+                print("No prose files found to lint.")
         return 0
 
     all_findings: list[Finding] = []
